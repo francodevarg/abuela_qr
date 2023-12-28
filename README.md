@@ -1,3 +1,11 @@
+# Abuela QR
+
+Projecto que contiene un sitio web con el menu de la Cena provisionada el dia 6 de Enero en el cumpleanios de Cristina Pazos.
+
+---
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
