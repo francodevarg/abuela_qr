@@ -1,95 +1,53 @@
-import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main className='container grid'>
+      <section id='banner'>
+        {/** Imagen de la abuela  */}
+        {/** Heading: Gracias por venir! */}
+        {/** paragrahp: Te invito a que conozcas el menu de esta noche*/}
+        {/** CTA Button: Ver menu smooth scroll*/}
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      </section>
+      <section id='meal-menu'>
+        <h2 class="module-title">Menú principal</h2>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+          {/* <div class="item-wrapper">
+            <div class="item">
+              <div class="title">1. Salmon Zab(Cold Dish)</div>
+              <div class="space"></div>
+              <div class="price">7.90</div>
+            </div>
+            <p class="description">Thin sliced fresh salmon topped with Thai style spicy sauce and fresh garlic.</p>
+          </div> */}
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+        <h3>Pre-Entrada</h3>
+        <div class="menu">
+								<h4 class="menu-title">Empanadas , Sandwiches , Capanes</h4>
+				</div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
+        <h3>Entrada</h3>
+        <div class="menu">
+								<h4 class="menu-title">Arroyado de Pollo con Ensalada Rusa</h4>
+								<div class="menu-detail">Pollo al horno / Huevo / Papas / Zanahorias </div>
+				</div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <h3>Plato Principal</h3>
+        <div class="menu">
+								<h4 class="menu-title">Peceto con Crema Champiniong y Papas Noisette</h4>
+								<div class="menu-detail">Pollo al horno / Huevo / Papas / Zanahorias </div>
+				</div>
+
+
+        <h3>Bebidas</h3>
+          <ul>
+            <li>Vino</li>
+            <li>Cerveza</li>
+            <li>Agua Mineral</li>
+          </ul>
+       {/** CTA Button: Ver menu smooth scroll*/}
+      </section>
     </main>
   )
 }
