@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap);
+
 :root {
   /*========== Colors ==========*/
   /* Change favorite color */
@@ -121,14 +123,43 @@ img {
   gap: 1.5rem;
 }
 
+/*====== Section Banner =====*/
 
+#banner{
+  margin-top:2rem;
+}
 
+.grandma{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ml4 {
+  position: relative;
+  font-weight: 700;
+  font-size: 2rem;
+  color:rgb(23, 23, 23);
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  text-align:center;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
+}
+
+/*====== Section Meal =====*/
+#meal-menu{
+  margin-top:5rem;
+}
 .module-title{
   text-align:center;
   font: 700 38px/1.2 'Dancing Script', cursive;
   margin: 0 0 18px;
 }
-
 
 .menu {
 	border-bottom: 1px dotted #DDD;
@@ -166,4 +197,41 @@ img {
 	font-size: 13px;
 	float: right;
 	top: 5px;
+}
+
+/*======== ANIMATIONS =======*/
+.shake {
+  animation: rotate-shake 1.2s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+.blink {
+  animation: blink infinite .8s;
+  display: inline-block
+}
+
+@keyframes rotate-shake {
+  0% {
+    transform: rotate(2deg);
+  }
+  
+  50% {
+    transform: rotate(-2deg);
+  }
+  
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
 }
