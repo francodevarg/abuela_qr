@@ -160,7 +160,9 @@ main::-webkit-scrollbar {
 
 /*====== Section Meal =====*/
 #meal-menu{
-  margin:5rem 0;
+  margin:0;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 .module-title{
   text-align:center;
