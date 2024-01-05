@@ -113,20 +113,27 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+  margin: 0 1rem;
 }
 
 .grid {
   display: grid;
-  gap: 1.5rem;
 }
+
+main{
+  overflow-x: hidden;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
 
 /*====== Section Banner =====*/
 
 #banner{
-  margin-top:2rem;
+  margin: 5rem 0;
+  height: 100%;
 }
 
 .grandma{
@@ -153,12 +160,16 @@ img {
 
 /*====== Section Meal =====*/
 #meal-menu{
-  margin-top:5rem;
+  margin:5rem 0;
 }
 .module-title{
   text-align:center;
-  font: 700 38px/1.2 'Dancing Script', cursive;
-  margin: 0 0 18px;
+  font: 700 52px/1.2 'Dancing Script', cursive;
+  margin: 0;
+}
+
+.meal-list{
+  margin: 3rem 0;
 }
 
 .menu {
