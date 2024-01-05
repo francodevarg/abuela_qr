@@ -24,30 +24,46 @@ export default function Home() {
             </div> */}
         <div className="meal-list">
 
-        <div className="meal__item">
-          <h3>Pre-Entrada</h3>
-          <div className='menu'>
-            <h4 className='menu-title'>Empanadas , Sandwiches , Capanes</h4>
+          <div className="meal__item">
+            <h3>Pre-Entrada</h3>
+            <div className='menu'>
+              <h4 className='menu-title'>Sándwiches de miga, Piononos de Atún</h4>
+            </div>
           </div>
-        </div>
 
-        <h3>Entrada</h3>
-        <div className='menu'>
-          <h4 className='menu-title'>Arroyado de Pollo con Ensalada Rusa</h4>
-          <div className='menu-detail'>
-            Pollo al horno / Huevo / Papas / Zanahorias{' '}
+          <div className="meal__item">
+            <h3>Entrada</h3>
+            <div className='menu'>
+              <h4 className='menu-title'>Arrollado de Pollo con Ensalada Rusa</h4>
+              <h6 className='menu-detail'>Carne de Pollo / Huevo / Papas / Zanahorias / Arbejas{' '}</h6>
+            </div>
           </div>
-        </div>
 
-        <h3>Plato Principal</h3>
-        <div className='menu'>
-          <h4 className='menu-title'>
-            Peceto con Crema Champiniong y Papas Noisette
-          </h4>
-          <div className='menu-detail'>
-            Pollo al horno / Huevo / Papas / Zanahorias{' '}
+          <div className="meal__item">
+            <h3>Plato Principal</h3>
+            <div className='menu'>
+              <h4 className='menu-title'>Peceto Relleno (con Salsa Opcional)*</h4>
+              <h6 className='menu-detail'>Carne de Vaca / Ajo / Cebolla / Morrón{' '}</h6>
+              <small>*Crema de Verdeo o Crema Champiñón</small>
+            </div>
           </div>
-        </div>
+
+
+          <div className="meal__item">
+            <h3>Postre</h3>
+            <div className='menu'>
+              <h4 className='menu-title'>Tartas</h4>
+              <h6 className='menu-detail'>De Gelatina / De Frutos Rojos / De Bon o Bon{' '}</h6>
+            </div>
+          </div>
+
+          <div className="meal__item">
+            <h3>Torta de Cumpleaños</h3>
+            <div className='menu'>
+              <h4 className='menu-title'>Torta de 80</h4>
+              <h6 className='menu-detail'>Bizcochuelo de Vainilla / Crema Oreo / Mousse de Limón / Crema de Frutilla / Frutos Rojos{' '}</h6>
+            </div>
+          </div>
         </div>
 
         <h3>Bebidas</h3>
