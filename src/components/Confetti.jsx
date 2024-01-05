@@ -24,11 +24,15 @@ export default function Confetti() {
 
   //AS INTERVAL
   useEffect(() => {
-      let interval = 3000;
-      const intervalID = setInterval(() => {
-          console.log('interval')
-          fire();
+    let intervalID;
+    setTimeout(() =>{
+
+      let interval = 6000;
+      intervalID = setInterval(() => {
+        console.log('interval')
+        fire();
       }, interval);
+    },3000)
 
       return () => clearInterval(intervalID); //This is important
 

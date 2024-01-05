@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
 
 :root {
   /*========== Colors ==========*/
@@ -160,7 +161,9 @@ main::-webkit-scrollbar {
 
 /*====== Section Meal =====*/
 #meal-menu{
-  margin:5rem 0;
+  margin:0;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 .module-title{
   text-align:center;
@@ -172,24 +175,34 @@ main::-webkit-scrollbar {
   margin: 3rem 0;
 }
 
+.meal__item h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
 .menu {
-	border-bottom: 1px dotted #DDD;
-	padding: 0 0 10px;
-	margin: 0 0 20px;
+  border-bottom: 1px dotted #DDD;
+  padding: 0 0 10px;
+  margin: 0 0 20px;
 }
 
 .menu-classic img {
 	margin: 0 0 10px;
 }
 
-.menu-title,
-.menu-price {
+.menu-title{
+  color:rgb(34,34,34);
 	font-size: 16px;
+  font-weight:500;
 	margin: 0;
 }
 
-.menu-detail {
-	font-size: 14px;
+.menu-detail{
+  font-size: 14px;
+  font-weight:400;
+  color:rgb(130,130,130);
+  margin-bottom:.5rem;
 }
 
 .menu-price-detail {
